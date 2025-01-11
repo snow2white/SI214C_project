@@ -1,0 +1,1248 @@
+selfadaptdemo
+This is T-IFISS version 1.2 released 19 December 2018
+For help, type "helpme".
+1. square domain | isotropic diffusion ... 
+Working in batch mode from data file adaptP1_batch.m
+
+Specification of reference diffusion problem.
+Choose specific example
+   1.  Square domain,   unit coefficients
+   2.  Square domain,   anisotropic coefficients
+   3.  Square domain,   variable coefficients
+   4.  L-shaped domain, constant load function
+   5.  L-shaped domain, variable coefficients, analytic solution
+   6.  Crack domain,    variable coefficients
+     1
+
+\nP1/P2 approximation 1/2? (default 1)
+     2
+
+Tolerance (default 9e-05)
+   3.0000e-04
+
+Using hierarchical estimator (elementwise residual problems)
+Marking strategy: maximum or equilibration 1/2? (default 2)
+     2
+
+Threshold parameter (default 0.5)
+    0.5000
+
+
+Coarse grid generation for a unit square domain
+Grid parameter: 2 for underlying 8x4 grid (default is 3 for 16x8)
+     3
+
+
+------------------------------------------------------------
+Iteration 1
+------------------------------------------------------------
+Data mesh:
+Number of elements: 128
+Number of vertices: 81
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00138 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00052 sec)
+Computing detail space Y info...done      (0.00052 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 4.1639e-03 
+Estimated energy error: 4.1639e-03
+Estimation took 0.03326 sec
+Mesh refinement...done (0.00171 sec)
+
+------------------------------------------------------------
+Iteration 2
+------------------------------------------------------------
+Data mesh:
+Number of elements: 136
+Number of vertices: 85
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00120 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00044 sec)
+Computing detail space Y info...done      (0.00051 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 3.0746e-03 
+Estimated energy error: 3.0746e-03
+Estimation took 0.03370 sec
+Mesh refinement...done (0.00207 sec)
+
+------------------------------------------------------------
+Iteration 3
+------------------------------------------------------------
+Data mesh:
+Number of elements: 162
+Number of vertices: 102
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00147 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00050 sec)
+Computing detail space Y info...done      (0.00053 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 2.4036e-03 
+Estimated energy error: 2.4036e-03
+Estimation took 0.11159 sec
+Mesh refinement...done (0.00213 sec)
+
+------------------------------------------------------------
+Iteration 4
+------------------------------------------------------------
+Data mesh:
+Number of elements: 220
+Number of vertices: 131
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00187 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00058 sec)
+Computing detail space Y info...done      (0.00088 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 1.7690e-03 
+Estimated energy error: 1.7690e-03
+Estimation took 0.03609 sec
+Mesh refinement...done (0.00250 sec)
+
+------------------------------------------------------------
+Iteration 5
+------------------------------------------------------------
+Data mesh:
+Number of elements: 296
+Number of vertices: 173
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00251 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00070 sec)
+Computing detail space Y info...done      (0.00065 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 1.2887e-03 
+Estimated energy error: 1.2887e-03
+Estimation took 0.04588 sec
+Mesh refinement...done (0.00290 sec)
+
+------------------------------------------------------------
+Iteration 6
+------------------------------------------------------------
+Data mesh:
+Number of elements: 386
+Number of vertices: 226
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00344 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00107 sec)
+Computing detail space Y info...done      (0.00097 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 9.8811e-04 
+Estimated energy error: 9.8811e-04
+Estimation took 0.04292 sec
+Mesh refinement...done (0.00341 sec)
+
+------------------------------------------------------------
+Iteration 7
+------------------------------------------------------------
+Data mesh:
+Number of elements: 504
+Number of vertices: 289
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00535 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00103 sec)
+Computing detail space Y info...done      (0.00090 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 7.5216e-04 
+Estimated energy error: 7.5216e-04
+Estimation took 0.04475 sec
+Mesh refinement...done (0.00465 sec)
+
+------------------------------------------------------------
+Iteration 8
+------------------------------------------------------------
+Data mesh:
+Number of elements: 696
+Number of vertices: 389
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00530 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00113 sec)
+Computing detail space Y info...done      (0.00111 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 5.5446e-04 
+Estimated energy error: 5.5446e-04
+Estimation took 0.11998 sec
+Mesh refinement...done (0.00655 sec)
+
+------------------------------------------------------------
+Iteration 9
+------------------------------------------------------------
+Data mesh:
+Number of elements: 911
+Number of vertices: 504
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00833 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00136 sec)
+Computing detail space Y info...done      (0.00129 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 4.1965e-04 
+Estimated energy error: 4.1965e-04
+Estimation took 0.11515 sec
+Mesh refinement...done (0.00845 sec)
+
+------------------------------------------------------------
+Iteration 10
+------------------------------------------------------------
+Data mesh:
+Number of elements: 1176
+Number of vertices: 641
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.01086 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00171 sec)
+Computing detail space Y info...done      (0.00187 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 3.1805e-04 
+Estimated energy error: 3.1805e-04
+Estimation took 0.06787 sec
+Mesh refinement...done (0.00923 sec)
+
+------------------------------------------------------------
+Iteration 11
+------------------------------------------------------------
+Data mesh:
+Number of elements: 1592
+Number of vertices: 869
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.01646 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00215 sec)
+Computing detail space Y info...done      (0.00228 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 2.4023e-04 
+Estimated energy error: 2.4023e-04
+Estimation took 0.08091 sec
+
+------------------------------------------------------------
+Tolerance reached!
+------------------------------------------------------------
+Total elapsed time:                1.78583 sec
+Final estimated energy error:      2.4023e-04
+Total number of iterations:        11
+Total number of refinements:       10
+Final number of elements:          1592
+Final number of total vertices:    3329
+Final number of interior vertices: 3041
+
+Plotting solution and the error estimator...done
+-> Output data saved to: datafiles/adaptive_output.mat
+
+
+CHECK OUT the computed solution 
+CHECK OUT the final grid 
+ (Type any character to continue.)
+2. square domain | strong anisotropy ... 
+Working in batch mode from data file adaptP2_batch.m
+
+Specification of reference diffusion problem.
+Choose specific example
+   1.  Square domain,   unit coefficients
+   2.  Square domain,   anisotropic coefficients
+   3.  Square domain,   variable coefficients
+   4.  L-shaped domain, constant load function
+   5.  L-shaped domain, variable coefficients, analytic solution
+   6.  Crack domain,    variable coefficients
+     2
+
+\nP1/P2 approximation 1/2? (default 1)
+     2
+
+Tolerance (default 2e-04)
+   3.0000e-04
+
+Using hierarchical estimator (elementwise residual problems)
+Marking strategy: maximum or equilibration 1/2? (default 2)
+     2
+
+Threshold parameter (default 0.5)
+    0.5000
+
+
+Coarse grid generation for a reference square domain
+Grid parameter: 2 for underlying 8x4 grid (default is 3 for 16x8)
+     3
+
+Uniform/stretched grid (1/2) (default 1)
+     1
+
+
+------------------------------------------------------------
+Iteration 1
+------------------------------------------------------------
+Data mesh:
+Number of elements: 128
+Number of vertices: 81
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00104 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00064 sec)
+Computing detail space Y info...done      (0.00066 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 6.3325e-02 
+Estimated energy error: 6.3325e-02
+Estimation took 0.03359 sec
+Mesh refinement...done (0.00174 sec)
+
+------------------------------------------------------------
+Iteration 2
+------------------------------------------------------------
+Data mesh:
+Number of elements: 136
+Number of vertices: 85
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00126 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00045 sec)
+Computing detail space Y info...done      (0.00049 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 4.2525e-02 
+Estimated energy error: 4.2525e-02
+Estimation took 0.03398 sec
+Mesh refinement...done (0.00180 sec)
+
+------------------------------------------------------------
+Iteration 3
+------------------------------------------------------------
+Data mesh:
+Number of elements: 154
+Number of vertices: 94
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00136 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00050 sec)
+Computing detail space Y info...done      (0.00055 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 3.1877e-02 
+Estimated energy error: 3.1877e-02
+Estimation took 0.03393 sec
+Mesh refinement...done (0.00197 sec)
+
+------------------------------------------------------------
+Iteration 4
+------------------------------------------------------------
+Data mesh:
+Number of elements: 172
+Number of vertices: 103
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00161 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00052 sec)
+Computing detail space Y info...done      (0.00082 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 2.6981e-02 
+Estimated energy error: 2.6981e-02
+Estimation took 0.03453 sec
+Mesh refinement...done (0.00201 sec)
+
+------------------------------------------------------------
+Iteration 5
+------------------------------------------------------------
+Data mesh:
+Number of elements: 190
+Number of vertices: 116
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00147 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00062 sec)
+Computing detail space Y info...done      (0.00066 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 2.7890e-02 
+Estimated energy error: 2.7890e-02
+Estimation took 0.03449 sec
+Mesh refinement...done (0.00205 sec)
+
+------------------------------------------------------------
+Iteration 6
+------------------------------------------------------------
+Data mesh:
+Number of elements: 204
+Number of vertices: 123
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00172 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00057 sec)
+Computing detail space Y info...done      (0.00059 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 1.8930e-02 
+Estimated energy error: 1.8930e-02
+Estimation took 0.03726 sec
+Mesh refinement...done (0.00218 sec)
+
+------------------------------------------------------------
+Iteration 7
+------------------------------------------------------------
+Data mesh:
+Number of elements: 222
+Number of vertices: 134
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00181 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00053 sec)
+Computing detail space Y info...done      (0.00057 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 1.4517e-02 
+Estimated energy error: 1.4517e-02
+Estimation took 0.11525 sec
+Mesh refinement...done (0.00226 sec)
+
+------------------------------------------------------------
+Iteration 8
+------------------------------------------------------------
+Data mesh:
+Number of elements: 250
+Number of vertices: 152
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00207 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00062 sec)
+Computing detail space Y info...done      (0.00081 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 1.1459e-02 
+Estimated energy error: 1.1459e-02
+Estimation took 0.03805 sec
+Mesh refinement...done (0.00249 sec)
+
+------------------------------------------------------------
+Iteration 9
+------------------------------------------------------------
+Data mesh:
+Number of elements: 284
+Number of vertices: 173
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00235 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00078 sec)
+Computing detail space Y info...done      (0.00092 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 9.9392e-03 
+Estimated energy error: 9.9392e-03
+Estimation took 0.03786 sec
+Mesh refinement...done (0.00277 sec)
+
+------------------------------------------------------------
+Iteration 10
+------------------------------------------------------------
+Data mesh:
+Number of elements: 353
+Number of vertices: 208
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00298 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00085 sec)
+Computing detail space Y info...done      (0.00084 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 8.1363e-03 
+Estimated energy error: 8.1363e-03
+Estimation took 0.04425 sec
+Mesh refinement...done (0.00381 sec)
+
+------------------------------------------------------------
+Iteration 11
+------------------------------------------------------------
+Data mesh:
+Number of elements: 444
+Number of vertices: 257
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00366 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00082 sec)
+Computing detail space Y info...done      (0.00084 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 7.1683e-03 
+Estimated energy error: 7.1683e-03
+Estimation took 0.13282 sec
+Mesh refinement...done (0.00455 sec)
+
+------------------------------------------------------------
+Iteration 12
+------------------------------------------------------------
+Data mesh:
+Number of elements: 550
+Number of vertices: 314
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00588 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00098 sec)
+Computing detail space Y info...done      (0.00098 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 4.7560e-03 
+Estimated energy error: 4.7560e-03
+Estimation took 0.04972 sec
+Mesh refinement...done (0.00418 sec)
+
+------------------------------------------------------------
+Iteration 13
+------------------------------------------------------------
+Data mesh:
+Number of elements: 644
+Number of vertices: 367
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00576 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00145 sec)
+Computing detail space Y info...done      (0.00142 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 3.7878e-03 
+Estimated energy error: 3.7878e-03
+Estimation took 0.05141 sec
+Mesh refinement...done (0.00520 sec)
+
+------------------------------------------------------------
+Iteration 14
+------------------------------------------------------------
+Data mesh:
+Number of elements: 770
+Number of vertices: 436
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.10821 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00124 sec)
+Computing detail space Y info...done      (0.00126 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 3.0563e-03 
+Estimated energy error: 3.0563e-03
+Estimation took 0.05510 sec
+Mesh refinement...done (0.00629 sec)
+
+------------------------------------------------------------
+Iteration 15
+------------------------------------------------------------
+Data mesh:
+Number of elements: 970
+Number of vertices: 542
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.00949 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00146 sec)
+Computing detail space Y info...done      (0.00144 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 2.5242e-03 
+Estimated energy error: 2.5242e-03
+Estimation took 0.06030 sec
+Mesh refinement...done (0.00755 sec)
+
+------------------------------------------------------------
+Iteration 16
+------------------------------------------------------------
+Data mesh:
+Number of elements: 1214
+Number of vertices: 672
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.01218 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00184 sec)
+Computing detail space Y info...done      (0.00190 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 2.0383e-03 
+Estimated energy error: 2.0383e-03
+Estimation took 0.06983 sec
+Mesh refinement...done (0.00876 sec)
+
+------------------------------------------------------------
+Iteration 17
+------------------------------------------------------------
+Data mesh:
+Number of elements: 1474
+Number of vertices: 810
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.01702 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00224 sec)
+Computing detail space Y info...done      (0.00212 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 1.5256e-03 
+Estimated energy error: 1.5256e-03
+Estimation took 0.07734 sec
+Mesh refinement...done (0.01060 sec)
+
+------------------------------------------------------------
+Iteration 18
+------------------------------------------------------------
+Data mesh:
+Number of elements: 1800
+Number of vertices: 979
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.01843 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00248 sec)
+Computing detail space Y info...done      (0.00260 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 1.2041e-03 
+Estimated energy error: 1.2041e-03
+Estimation took 0.09310 sec
+Mesh refinement...done (0.01513 sec)
+
+------------------------------------------------------------
+Iteration 19
+------------------------------------------------------------
+Data mesh:
+Number of elements: 2260
+Number of vertices: 1219
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.02368 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00302 sec)
+Computing detail space Y info...done      (0.00302 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 9.1957e-04 
+Estimated energy error: 9.1957e-04
+Estimation took 0.11176 sec
+Mesh refinement...done (0.01828 sec)
+
+------------------------------------------------------------
+Iteration 20
+------------------------------------------------------------
+Data mesh:
+Number of elements: 2854
+Number of vertices: 1532
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.03115 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00380 sec)
+Computing detail space Y info...done      (0.00370 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 7.2943e-04 
+Estimated energy error: 7.2943e-04
+Estimation took 0.13661 sec
+Mesh refinement...done (0.02053 sec)
+
+------------------------------------------------------------
+Iteration 21
+------------------------------------------------------------
+Data mesh:
+Number of elements: 3668
+Number of vertices: 1949
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.03895 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00498 sec)
+Computing detail space Y info...done      (0.00632 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 5.8306e-04 
+Estimated energy error: 5.8306e-04
+Estimation took 0.16327 sec
+Mesh refinement...done (0.02514 sec)
+
+------------------------------------------------------------
+Iteration 22
+------------------------------------------------------------
+Data mesh:
+Number of elements: 4608
+Number of vertices: 2429
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.05243 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00613 sec)
+Computing detail space Y info...done      (0.00628 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 4.4873e-04 
+Estimated energy error: 4.4873e-04
+Estimation took 0.20651 sec
+Mesh refinement...done (0.03228 sec)
+
+------------------------------------------------------------
+Iteration 23
+------------------------------------------------------------
+Data mesh:
+Number of elements: 5790
+Number of vertices: 3031
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.06622 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.01010 sec)
+Computing detail space Y info...done      (0.00825 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 3.4758e-04 
+Estimated energy error: 3.4758e-04
+Estimation took 0.24656 sec
+Mesh refinement...done (0.04085 sec)
+
+------------------------------------------------------------
+Iteration 24
+------------------------------------------------------------
+Data mesh:
+Number of elements: 7326
+Number of vertices: 3818
+Computing P2 Galerkin solution
+setting up P2 diffusion matrices...  done
+Solving linear system...done (0.08756 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.01349 sec)
+Computing detail space Y info...done      (0.00943 sec)
+Error estimation using quartic bubble functions
+fast computation of P2 local error estimator...
+estimated energy error is 2.7882e-04 
+Estimated energy error: 2.7882e-04
+Estimation took 0.28487 sec
+
+------------------------------------------------------------
+Tolerance reached!
+------------------------------------------------------------
+Total elapsed time:                5.68233 sec
+Final estimated energy error:      2.7882e-04
+Total number of iterations:        24
+Total number of refinements:       23
+Final number of elements:          7326
+Final number of total vertices:    14961
+Final number of interior vertices: 14345
+
+Plotting solution and the error estimator...done
+-> Output data saved to: datafiles/adaptive_output.mat
+
+
+CHECK OUT the computed solution 
+
+CHECK OUT the final grid 
+ (Type any character to continue.)
+5. L-shaped domain | refinement of singularity ...
+Working in batch mode from data file adaptP5_batch.m
+
+Specification of reference diffusion problem.
+Choose specific example
+   1.  Square domain,   unit coefficients
+   2.  Square domain,   anisotropic coefficients
+   3.  Square domain,   variable coefficients
+   4.  L-shaped domain, constant load function
+   5.  L-shaped domain, variable coefficients, analytic solution
+   6.  Crack domain,    variable coefficients
+     4
+
+\nP1/P2 approximation 1/2? (default 1)
+     1
+
+Tolerance (default 9e-03)
+    0.0100
+
+Error estimation: linear/quadratic bubble functions 1/2? (default 1)
+     1
+
+Estimator type:
+   1. hierarchical estimator (elementwise residual problems)
+   2. hierarchical estimator (fully assembled system for residual problem)
+   3. 2-level estimator
+(default 1)
+     1
+
+Marking strategy: maximum or equilibration 1/2? (default 2)
+     2
+
+Threshold parameter (default 0.5)
+    0.5000
+
+
+Coarse grid generation for a L-shaped domain\nStructured/unstructured mesh 1/2 (default 1)
+     1
+
+Grid parameter: 2 for underlying 8x3 grid (default is 3 for 8x12)
+     3
+
+Grid stretch factor (>=1) (default is 1)
+     1
+
+
+------------------------------------------------------------
+Iteration 1
+------------------------------------------------------------
+Data mesh:
+Number of elements: 96
+Number of vertices: 65
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00012 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00039 sec)
+Computing detail space Y info...done      (0.00044 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 1.2500e-01 | edge_res = 1.2330e-01
+Estimated energy error: 1.4535e-01
+boundary correction done
+Estimated energy error: 1.3080e-01
+Estimation took 0.02875 sec
+Mesh refinement...done (0.00161 sec)
+
+------------------------------------------------------------
+Iteration 2
+------------------------------------------------------------
+Data mesh:
+Number of elements: 114
+Number of vertices: 74
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00021 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00044 sec)
+Computing detail space Y info...done      (0.00049 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 1.1900e-01 | edge_res = 1.1470e-01
+Estimated energy error: 1.2026e-01
+boundary correction done
+Estimated energy error: 1.1154e-01
+Estimation took 0.02578 sec
+Mesh refinement...done (0.00172 sec)
+
+------------------------------------------------------------
+Iteration 3
+------------------------------------------------------------
+Data mesh:
+Number of elements: 142
+Number of vertices: 88
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00012 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00044 sec)
+Computing detail space Y info...done      (0.00063 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 1.1122e-01 | edge_res = 1.0009e-01
+Estimated energy error: 1.0134e-01
+boundary correction done
+Estimated energy error: 9.5694e-02
+Estimation took 0.13237 sec
+Mesh refinement...done (0.00202 sec)
+
+------------------------------------------------------------
+Iteration 4
+------------------------------------------------------------
+Data mesh:
+Number of elements: 202
+Number of vertices: 119
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00015 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00048 sec)
+Computing detail space Y info...done      (0.00054 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 9.7630e-02 | edge_res = 7.9975e-02
+Estimated energy error: 9.6303e-02
+boundary correction done
+Estimated energy error: 9.0331e-02
+Estimation took 0.13875 sec
+Mesh refinement...done (0.00253 sec)
+
+------------------------------------------------------------
+Iteration 5
+------------------------------------------------------------
+Data mesh:
+Number of elements: 262
+Number of vertices: 150
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00020 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00061 sec)
+Computing detail space Y info...done      (0.00062 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 8.3567e-02 | edge_res = 7.1003e-02
+Estimated energy error: 8.2160e-02
+boundary correction done
+Estimated energy error: 7.5617e-02
+Estimation took 0.02798 sec
+Mesh refinement...done (0.00300 sec)
+
+------------------------------------------------------------
+Iteration 6
+------------------------------------------------------------
+Data mesh:
+Number of elements: 314
+Number of vertices: 180
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00020 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00063 sec)
+Computing detail space Y info...done      (0.00080 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 7.7237e-02 | edge_res = 6.6244e-02
+Estimated energy error: 6.7161e-02
+boundary correction done
+Estimated energy error: 5.9640e-02
+Estimation took 0.12607 sec
+Mesh refinement...done (0.00313 sec)
+
+------------------------------------------------------------
+Iteration 7
+------------------------------------------------------------
+Data mesh:
+Number of elements: 412
+Number of vertices: 234
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00024 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00074 sec)
+Computing detail space Y info...done      (0.00076 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 6.9697e-02 | edge_res = 5.8444e-02
+Estimated energy error: 5.8002e-02
+boundary correction done
+Estimated energy error: 5.2710e-02
+Estimation took 0.13557 sec
+Mesh refinement...done (0.00453 sec)
+
+------------------------------------------------------------
+Iteration 8
+------------------------------------------------------------
+Data mesh:
+Number of elements: 602
+Number of vertices: 335
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00033 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00095 sec)
+Computing detail space Y info...done      (0.00101 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 5.8569e-02 | edge_res = 4.9429e-02
+Estimated energy error: 4.9163e-02
+boundary correction done
+Estimated energy error: 4.6793e-02
+Estimation took 0.11557 sec
+Mesh refinement...done (0.00577 sec)
+
+------------------------------------------------------------
+Iteration 9
+------------------------------------------------------------
+Data mesh:
+Number of elements: 848
+Number of vertices: 464
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00047 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00128 sec)
+Computing detail space Y info...done      (0.00143 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 4.9484e-02 | edge_res = 4.4423e-02
+Estimated energy error: 4.3668e-02
+boundary correction done
+Estimated energy error: 4.1815e-02
+Estimation took 0.03686 sec
+Mesh refinement...done (0.00691 sec)
+
+------------------------------------------------------------
+Iteration 10
+------------------------------------------------------------
+Data mesh:
+Number of elements: 1132
+Number of vertices: 611
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00058 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00175 sec)
+Computing detail space Y info...done      (0.00189 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 4.2611e-02 | edge_res = 3.7881e-02
+Estimated energy error: 3.6200e-02
+boundary correction done
+Estimated energy error: 3.4359e-02
+Estimation took 0.04230 sec
+Mesh refinement...done (0.00831 sec)
+
+------------------------------------------------------------
+Iteration 11
+------------------------------------------------------------
+Data mesh:
+Number of elements: 1436
+Number of vertices: 769
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00074 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00201 sec)
+Computing detail space Y info...done      (0.00229 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 3.7323e-02 | edge_res = 3.2863e-02
+Estimated energy error: 2.9993e-02
+boundary correction done
+Estimated energy error: 2.8301e-02
+Estimation took 0.04582 sec
+Mesh refinement...done (0.01211 sec)
+
+------------------------------------------------------------
+Iteration 12
+------------------------------------------------------------
+Data mesh:
+Number of elements: 2010
+Number of vertices: 1068
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00100 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00265 sec)
+Computing detail space Y info...done      (0.00271 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 3.2945e-02 | edge_res = 2.9049e-02
+Estimated energy error: 2.5456e-02
+boundary correction done
+Estimated energy error: 2.4344e-02
+Estimation took 0.14296 sec
+Mesh refinement...done (0.01570 sec)
+
+------------------------------------------------------------
+Iteration 13
+------------------------------------------------------------
+Data mesh:
+Number of elements: 2950
+Number of vertices: 1552
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00149 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00376 sec)
+Computing detail space Y info...done      (0.00410 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 2.7068e-02 | edge_res = 2.3948e-02
+Estimated energy error: 2.2467e-02
+boundary correction done
+Estimated energy error: 2.1966e-02
+Estimation took 0.07949 sec
+Mesh refinement...done (0.02165 sec)
+
+------------------------------------------------------------
+Iteration 14
+------------------------------------------------------------
+Data mesh:
+Number of elements: 4058
+Number of vertices: 2117
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00216 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00637 sec)
+Computing detail space Y info...done      (0.00522 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 2.2850e-02 | edge_res = 2.0823e-02
+Estimated energy error: 1.9109e-02
+boundary correction done
+Estimated energy error: 1.8667e-02
+Estimation took 0.11201 sec
+Mesh refinement...done (0.03176 sec)
+
+------------------------------------------------------------
+Iteration 15
+------------------------------------------------------------
+Data mesh:
+Number of elements: 5214
+Number of vertices: 2705
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00281 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00827 sec)
+Computing detail space Y info...done      (0.00728 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 1.9951e-02 | edge_res = 1.7958e-02
+Estimated energy error: 1.5352e-02
+boundary correction done
+Estimated energy error: 1.4888e-02
+Estimation took 0.11252 sec
+Mesh refinement...done (0.03743 sec)
+
+------------------------------------------------------------
+Iteration 16
+------------------------------------------------------------
+Data mesh:
+Number of elements: 7002
+Number of vertices: 3625
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00378 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00990 sec)
+Computing detail space Y info...done      (0.00936 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 1.7485e-02 | edge_res = 1.5682e-02
+Estimated energy error: 1.3039e-02
+boundary correction done
+Estimated energy error: 1.2717e-02
+Estimation took 0.14285 sec
+Mesh refinement...done (0.05248 sec)
+
+------------------------------------------------------------
+Iteration 17
+------------------------------------------------------------
+Data mesh:
+Number of elements: 10328
+Number of vertices: 5314
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.00640 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.01420 sec)
+Computing detail space Y info...done      (0.01458 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 1.4780e-02 | edge_res = 1.3129e-02
+Estimated energy error: 1.1600e-02
+boundary correction done
+Estimated energy error: 1.1428e-02
+Estimation took 0.17676 sec
+Mesh refinement...done (0.08108 sec)
+
+------------------------------------------------------------
+Iteration 18
+------------------------------------------------------------
+Data mesh:
+Number of elements: 14774
+Number of vertices: 7557
+Computing P1 Galerkin solution
+setting up P1 diffusion matrices...  done
+Solving linear system...done (0.01124 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.01974 sec)
+Computing detail space Y info...done      (0.01983 sec)
+Error estimation using 3 edge midpoint linear functions
+Hierarchical eY estimator: solving elementwise residual problems
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 1.2153e-02 | edge_res = 1.1032e-02
+Estimated energy error: 1.0023e-02
+boundary correction done
+Estimated energy error: 9.9151e-03
+Estimation took 0.25811 sec
+
+------------------------------------------------------------
+Tolerance reached!
+------------------------------------------------------------
+Total elapsed time:                3.69748 sec
+Final estimated energy error:      9.9151e-03
+Total number of iterations:        18
+Total number of refinements:       17
+Final number of elements:          14774
+Final number of total vertices:    7557
+Final number of interior vertices: 7219
+
+Plotting solution and the error estimator...done
+-> Output data saved to: datafiles/adaptive_output.mat
+
+
+CHECK OUT the computed solution 
+
+CHECK OUT the final grid 
+Voila! end of diffusion demo. 

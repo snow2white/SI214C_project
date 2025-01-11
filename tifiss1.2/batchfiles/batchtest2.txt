@@ -1,0 +1,45 @@
+Working in batch mode from data file P2_batch.m
+
+specification of reference diffusion problem.
+choose specific example
+     1  Square domain, unit coefficients
+     2  Square domain, anisotropic coefficients
+     3  Circle domain, unit coefficients, analytic solution
+     4  punched ticket domain, unit coefficients
+     5  L-shaped domain, constant load function
+     2
+
+
+
+Grid generation for unit square  domain.
+grid parameter: 3 for underlying 8x8 grid (default is 16x16)
+     5
+
+uniform/stretched grid (1/2) (default uniform)
+     1
+
+refinement level (default 0)
+     1
+
+P1/P2 approximation 1/2? (default P1)
+     1
+
+setting up P1 diffusion matrices...  done
+system saved in system_adiff.mat ...
+solving linear system ...  done
+Galerkin system solved in  9.495e-03 seconds
+plotting solution... done
+
+Error estimation: linear/quadratic bubble functions 1/2 (default 1)
+     1
+
+diffpost using 3 edge midpoint linear functions...
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 4.5105e-03 | edge_res = 9.6138e-03
+Estimated energy error: 4.6373e-03
+Elapsed time is 0.295863 seconds.
+boundary correction done
+Estimated energy error: 4.4040e-03
+
+plotting solution and estimated errors: this might be a little slow ... done

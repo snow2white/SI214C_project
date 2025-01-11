@@ -1,0 +1,45 @@
+Working in batch mode from data file P5_batch.m
+
+specification of reference diffusion problem.
+choose specific example
+     1  Square domain, unit coefficients
+     2  Square domain, anisotropic coefficients
+     3  Circle domain, unit coefficients, analytic solution
+     4  punched ticket domain, unit coefficients
+     5  L-shaped domain, constant load function
+     5
+
+structured/unstructured mesh : 1/2 (default 2)
+     2
+
+target mesh size (default 0.02)
+    0.0200
+
+mesh density near corner (0.2)
+    0.2000
+
+generating triangulation ...
+done
+
+Mesh logistics ..
+  1189 nodes 
+  2286 elements 
+  90 nodes on Dirichlet boundary 
+  90 element edges on Dirichlet boundary 
+refinement level? (default 1)
+     0
+
+mesh validation step
+computing edge connections and edge lengths... done 
+P1/P2 approximation 1/2? (default P2)
+     2
+
+setting up P2 diffusion matrices...  done
+system saved in system_adiff.mat ...
+solving linear system ...  done
+Galerkin system solved in  3.225e-02 seconds
+plotting solution... done
+fast computation of P2 local error estimator...
+estimated energy error is 7.7157e-03 
+Elapsed time is 0.113515 seconds.
+plotting solution and estimated errors: this might be a little slow ... done

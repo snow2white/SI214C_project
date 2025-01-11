@@ -1,0 +1,24 @@
+These notes are associated with the software release of T-IFISS.
+This is a suite of m-files for solving steady diffusion problems in 
+a general two-dimensional geometry using the finite element method.
+Unstructured mesh generation is effected using the DISTMESH package.
+
+The T-IFISS package has five main ingredients:
+o  Discretisation with linear (P1) and quadratic (P2) elements 
+o  Visualisation of the computed solution
+o  Built-in a posteriori error estimation of the generated solution.
+o  Self-adaptive solution driven by rigorous energy error estimation
+o  Iterative solvers can be tested on the resulting linear systems
+ 
+Major changes/additions in version 1.2:
+
+.  choice of three types of error estimation strategies using piecewise 
+   linear bubble functions for P1 approximations
+   (element residual (default), global hierarchical, 2-level)
+.  choice of edge- or element-based marking
+   (for hierarchical and 2-level error estimation)
+.  goal-oriented adaptivity with 6 different marking strategies
+.  fast (vectorized) mesh refinement 
+
+
+

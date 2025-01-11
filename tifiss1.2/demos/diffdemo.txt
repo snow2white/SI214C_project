@@ -1,0 +1,273 @@
+diffproblemdemo
+This is T-IFISS version 1.2 released 19 December 2018
+For help, type "helpme".
+
+1. square domain | unit coefficients ... 
+Working in batch mode from data file P1_batch.m
+
+specification of reference diffusion problem.
+choose specific example
+     1  Square domain, unit coefficients
+     2  Square domain, anisotropic coefficients
+     3  Circle domain, unit coefficients, analytic solution
+     4  punched ticket domain, unit coefficients
+     5  L-shaped domain, constant load function
+     1
+
+
+
+Grid generation for unit square  domain.
+grid parameter: 3 for underlying 8x8 grid (default is 16x16)
+     5
+
+refinement level (default 0)
+     0
+
+P1/P2 approximation 1/2? (default P1)
+     2
+
+setting up P2 diffusion matrices...  done
+system saved in system_adiff.mat ...
+solving linear system ...  done
+Galerkin system solved in  2.505e-02 seconds
+plotting solution... done
+fast computation of P2 local error estimator...
+estimated energy error is 3.1037e-04 
+Elapsed time is 0.121235 seconds.
+plotting solution and estimated errors: this might be a little slow ... done
+
+CHECK OUT the error in the computed solution
+ (Type any character to continue.)
+2. square domain | strong anisotropy ... 
+Working in batch mode from data file P2_batch.m
+
+specification of reference diffusion problem.
+choose specific example
+     1  Square domain, unit coefficients
+     2  Square domain, anisotropic coefficients
+     3  Circle domain, unit coefficients, analytic solution
+     4  punched ticket domain, unit coefficients
+     5  L-shaped domain, constant load function
+     2
+
+
+
+Grid generation for unit square  domain.
+grid parameter: 3 for underlying 8x8 grid (default is 16x16)
+     5
+
+uniform/stretched grid (1/2) (default uniform)
+     1
+
+refinement level (default 0)
+     1
+
+P1/P2 approximation 1/2? (default P1)
+     1
+
+setting up P1 diffusion matrices...  done
+system saved in system_adiff.mat ...
+solving linear system ...  done
+Galerkin system solved in  7.331e-03 seconds
+plotting solution... done
+
+Error estimation: linear/quadratic bubble functions 1/2 (default 1)
+     1
+
+diffpost using 3 edge midpoint linear functions...
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 4.5105e-03 | edge_res = 9.6138e-03
+Estimated energy error: 4.6373e-03
+Elapsed time is 0.164896 seconds.
+boundary correction done
+Estimated energy error: 4.4040e-03
+
+plotting solution and estimated errors: this might be a little slow ... done
+
+CHECK OUT the computed solution 
+ (Type any character to continue.)
+3.circular domain | exact quadratic solution ... 
+Working in batch mode from data file P3_batch.m
+
+specification of reference diffusion problem.
+choose specific example
+     1  Square domain, unit coefficients
+     2  Square domain, anisotropic coefficients
+     3  Circle domain, unit coefficients, analytic solution
+     4  punched ticket domain, unit coefficients
+     5  L-shaped domain, constant load function
+     3
+
+target mesh size (default 0.1)
+    0.1000
+
+generating triangulation ...
+done
+
+Mesh logistics ..
+  362 nodes 
+  661 elements 
+  61 nodes on Dirichlet boundary 
+  61 element edges on Dirichlet boundary 
+refinement level? (default 0)
+     1
+
+P1/P2 approximation 1/2? (default P2)
+     2
+
+setting up P2 diffusion matrices...  done
+system saved in system_adiff.mat ...
+solving linear system ...  done
+Galerkin system solved in  3.563e-02 seconds
+plotting solution... done
+fast computation of P2 local error estimator...
+estimated energy error is 3.1820e-15 
+Elapsed time is 0.133756 seconds.
+plotting solution and estimated errors: this might be a little slow ... done
+
+CHECK OUT the perfectly computed solution
+ (Type any character to continue.)
+4. obstacle domain | smooth solution
+be patient .. the grid generation takes a while ... 
+Working in batch mode from data file P4_batch.m
+
+specification of reference diffusion problem.
+choose specific example
+     1  Square domain, unit coefficients
+     2  Square domain, anisotropic coefficients
+     3  Circle domain, unit coefficients, analytic solution
+     4  punched ticket domain, unit coefficients
+     5  L-shaped domain, constant load function
+     4
+
+square/circle obstacle 1/2? (default circle)
+     2
+
+target mesh size (default 0.1)
+    0.0200
+
+generating triangulation ...
+done
+refinement level (default 0)
+     0
+
+P1/P2 approximation 1/2? (default P2)
+     2
+
+setting up P2 diffusion matrices...  done
+system saved in system_adiff.mat ...
+solving linear system ...  done
+Galerkin system solved in  7.366e-02 seconds
+plotting solution... done
+fast computation of P2 local error estimator...
+estimated energy error is 2.8780e-03 
+Elapsed time is 0.258739 seconds.
+plotting solution and estimated errors: this might be a little slow ... done
+
+CHECK OUT the computed solution
+ (Type any character to continue.)
+5.L-shaped domain | refinement of singularity ...
+Working in batch mode from data file P5_batch.m
+
+specification of reference diffusion problem.
+choose specific example
+     1  Square domain, unit coefficients
+     2  Square domain, anisotropic coefficients
+     3  Circle domain, unit coefficients, analytic solution
+     4  punched ticket domain, unit coefficients
+     5  L-shaped domain, constant load function
+     5
+
+structured/unstructured mesh : 1/2 (default 1)
+     2
+
+target mesh size (default 0.02)
+    0.0200
+
+mesh density near corner (0.2)
+    0.2000
+
+generating triangulation ...
+done
+
+Mesh logistics ..
+  1189 nodes 
+  2286 elements 
+  90 nodes on Dirichlet boundary 
+  90 element edges on Dirichlet boundary 
+refinement level? (default 0)
+     0
+
+P1/P2 approximation 1/2? (default P1)
+     2
+
+setting up P2 diffusion matrices...  done
+system saved in system_adiff.mat ...
+solving linear system ...  done
+Galerkin system solved in  3.517e-02 seconds
+plotting solution... done
+fast computation of P2 local error estimator...
+estimated energy error is 7.7157e-03 
+Elapsed time is 0.122201 seconds.
+plotting solution and estimated errors: this might be a little slow ... done
+
+CHECK OUT the computed solution 
+ (Type any character to continue.)
+finally CHECK the AMG solver convergence ...
+Working in batch mode from data file itsolve_amg_batch.m
+discrete diffusion system ...
+PCG/MINRES? 1/2 (default PCG)
+     2
+
+tolerance? (default 1e-9)
+   1.0000e-06
+
+maximum number of iterations? (default 200)
+    30
+
+preconditioner:
+   0  none
+   1  diagonal
+   2  incomplete cholesky
+   3  algebraic multigrid
+default is AMG 
+     3
+
+AMG grid coarsening ...  10 grid levels constructed.
+
+setup done.
+plot AMG grid sequence? yes/no 1/2 (default no)
+     1
+
+PDJ/PGS smoother? 1/2 (point damped Jacobi)
+     1
+
+point damped Jacobi smoothing ..
+
+MINRES iteration ...
+convergence in   8 iterations
+
+    k  log10(||r_k||/||r_0||)   
+    0           0.0000 
+    1          -0.2796 
+    2          -1.0450 
+    3          -1.8708 
+    4          -2.8252 
+    5          -3.7619 
+    6          -4.7042 
+    7          -5.5723 
+    8          -6.4163 
+Bingo!
+
+  1.2223e-01 seconds
+
+
+use new (enter figno) or existing (0) figure, default is 0
+    19
+
+colour (b,g,r,c,m,y,k): enter 1--7 (default 1)
+     1
+
+Voila! end of diffusion demo. 
+

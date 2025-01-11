@@ -1,0 +1,60 @@
+>> setpath
+>> tifiss
+This is T-IFISS version 1.2 released 19 December 2018
+For help, type "helpme".
+>> test_diff
+
+Mesh logistics ..
+  12 nodes 
+  12 elements 
+  9 nodes on Dirichlet boundary 
+  8 element edges on Dirichlet boundary 
+refinement level (default 0) : 
+P1/P2 approximation 1/2? (default P1) : 1
+setting up P1 diffusion matrices...  done
+solving linear system ...  done
+Galerkin system solved in  3.503e-04 seconds
+plotting solution... done
+P1 local error estimator using mid-edge functions...
+computing P1 flux jumps... done
+internal_res = 1.8750e-01 | edge_res = 1.0835e-01
+Estimated energy error: 2.1466e-01
+Elapsed time is 0.040208 seconds.
+
+Warning: element 1 has two boundary edges
+boundary correction done
+Estimated energy error: 1.6265e-01
+>> x_gal
+
+x_gal =
+
+    0.0897
+    0.1090
+    0.1378
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+
+>> test_diff
+
+Mesh logistics ..
+  12 nodes 
+  12 elements 
+  9 nodes on Dirichlet boundary 
+  8 element edges on Dirichlet boundary 
+refinement level (default 0) : 2
+P1/P2 approximation 1/2? (default P1) : 2
+setting up P2 diffusion matrices...  done
+solving linear system ...  done
+Galerkin system solved in  1.462e-02 seconds
+plotting solution... done
+fast computation of P2 local error estimator...
+estimated energy error is 1.1509e-02 
+Elapsed time is 0.452126 seconds.
+Estimated energy error: 1.1509e-02

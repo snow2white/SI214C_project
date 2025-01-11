@@ -1,0 +1,363 @@
+goafem_testproblem
+
+Specification of goal-oriented example for adaptive FEM
+Choose specific example:
+   1.  Square domain (0,1)^2, symmetric Mommer-Stevenson example;
+   2.  L-shaped domain, symmetric Mommer-Stevenson example;
+   3.  L-shaped domain, nonsymmetric Mommer-Stevenson example;
+   4.  Crack domain, pointwise estimation;
+ : 4
+
+Tolerance (default 6e-04) : 
+Available strategies for Doerfler marking:
+   1.  [FPZ16] Feischl, Praetorius, Van Der Zee
+   2.  [MS09]  Mommer, Stevenson
+   3.  [HP16]  Holst, Pollock
+   4.  [BET11] Becker, Estecahandy, Trujillo
+   5.  Only primal problem
+   6.  Only dual problem
+Choose marking strategy: 1/2/3/4/5/6? (default 1) : 
+Threshold parameter (default 0.3) : 
+
+Coarse grid generation for a crack domain
+Coarse grid parameter: 2 for underlying 8x4 grid (default is 3 for 16x8) : 
+
+Internal point (x0,y0) and radius 'r' for the QoI:
+   x0 (default +0.40) : 
+   y0 (default -0.50) : 
+   r  (default  0.15) : 
+
+------------------------------------------------------------
+Iteration 1
+------------------------------------------------------------
+Number of elements: 128
+Number of vertices: 85
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00023 sec)
+Dual problem...  solved (0.00261 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00075 sec)
+Computing detail space Y info...done      (0.00067 sec)
+Two-level estimator
+Estimation took 0.03389 sec
+Estimated energy error (primal):   1.3546e-01
+Estimated energy error (dual):     1.9213e-01
+Estimated energy error (product):  2.6027e-02
+Mesh refinement...done (0.00275 sec)
+
+------------------------------------------------------------
+Iteration 2
+------------------------------------------------------------
+Number of elements: 140
+Number of vertices: 91
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00029 sec)
+Dual problem...  solved (0.00025 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00056 sec)
+Computing detail space Y info...done      (0.00061 sec)
+Two-level estimator
+Estimation took 0.03130 sec
+Estimated energy error (primal):   1.2777e-01
+Estimated energy error (dual):     1.8452e-01
+Estimated energy error (product):  2.3576e-02
+Mesh refinement...done (0.00217 sec)
+
+------------------------------------------------------------
+Iteration 3
+------------------------------------------------------------
+Number of elements: 168
+Number of vertices: 105
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00029 sec)
+Dual problem...  solved (0.00022 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00055 sec)
+Computing detail space Y info...done      (0.00052 sec)
+Two-level estimator
+Estimation took 0.03102 sec
+Estimated energy error (primal):   1.2023e-01
+Estimated energy error (dual):     1.6118e-01
+Estimated energy error (product):  1.9378e-02
+Mesh refinement...done (0.00218 sec)
+
+------------------------------------------------------------
+Iteration 4
+------------------------------------------------------------
+Number of elements: 196
+Number of vertices: 119
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00032 sec)
+Dual problem...  solved (0.00026 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00056 sec)
+Computing detail space Y info...done      (0.00055 sec)
+Two-level estimator
+Estimation took 0.03504 sec
+Estimated energy error (primal):   1.1348e-01
+Estimated energy error (dual):     1.3193e-01
+Estimated energy error (product):  1.4972e-02
+Mesh refinement...done (0.00226 sec)
+
+------------------------------------------------------------
+Iteration 5
+------------------------------------------------------------
+Number of elements: 242
+Number of vertices: 142
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00042 sec)
+Dual problem...  solved (0.00036 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00063 sec)
+Computing detail space Y info...done      (0.00062 sec)
+Two-level estimator
+Estimation took 0.03305 sec
+Estimated energy error (primal):   1.0238e-01
+Estimated energy error (dual):     1.1554e-01
+Estimated energy error (product):  1.1829e-02
+Mesh refinement...done (0.00269 sec)
+
+------------------------------------------------------------
+Iteration 6
+------------------------------------------------------------
+Number of elements: 314
+Number of vertices: 179
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00056 sec)
+Dual problem...  solved (0.00051 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00070 sec)
+Computing detail space Y info...done      (0.00069 sec)
+Two-level estimator
+Estimation took 0.03388 sec
+Estimated energy error (primal):   9.3558e-02
+Estimated energy error (dual):     1.0066e-01
+Estimated energy error (product):  9.4180e-03
+Mesh refinement...done (0.00353 sec)
+
+------------------------------------------------------------
+Iteration 7
+------------------------------------------------------------
+Number of elements: 396
+Number of vertices: 221
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00065 sec)
+Dual problem...  solved (0.00061 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00082 sec)
+Computing detail space Y info...done      (0.00079 sec)
+Two-level estimator
+Estimation took 0.03468 sec
+Estimated energy error (primal):   8.6232e-02
+Estimated energy error (dual):     8.6634e-02
+Estimated energy error (product):  7.4706e-03
+Mesh refinement...done (0.00377 sec)
+
+------------------------------------------------------------
+Iteration 8
+------------------------------------------------------------
+Number of elements: 549
+Number of vertices: 300
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00096 sec)
+Dual problem...  solved (0.00083 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00100 sec)
+Computing detail space Y info...done      (0.00117 sec)
+Two-level estimator
+Estimation took 0.03574 sec
+Estimated energy error (primal):   7.5112e-02
+Estimated energy error (dual):     7.3033e-02
+Estimated energy error (product):  5.4856e-03
+Mesh refinement...done (0.00439 sec)
+
+------------------------------------------------------------
+Iteration 9
+------------------------------------------------------------
+Number of elements: 701
+Number of vertices: 379
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00122 sec)
+Dual problem...  solved (0.00110 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00135 sec)
+Computing detail space Y info...done      (0.00116 sec)
+Two-level estimator
+Estimation took 0.03653 sec
+Estimated energy error (primal):   6.5065e-02
+Estimated energy error (dual):     6.5847e-02
+Estimated energy error (product):  4.2843e-03
+Mesh refinement...done (0.00510 sec)
+
+------------------------------------------------------------
+Iteration 10
+------------------------------------------------------------
+Number of elements: 842
+Number of vertices: 452
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00145 sec)
+Dual problem...  solved (0.00139 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00143 sec)
+Computing detail space Y info...done      (0.00137 sec)
+Two-level estimator
+Estimation took 0.03964 sec
+Estimated energy error (primal):   5.6933e-02
+Estimated energy error (dual):     5.9730e-02
+Estimated energy error (product):  3.4006e-03
+Mesh refinement...done (0.00691 sec)
+
+------------------------------------------------------------
+Iteration 11
+------------------------------------------------------------
+Number of elements: 1149
+Number of vertices: 612
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00198 sec)
+Dual problem...  solved (0.00192 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00182 sec)
+Computing detail space Y info...done      (0.00186 sec)
+Two-level estimator
+Estimation took 0.04381 sec
+Estimated energy error (primal):   4.9955e-02
+Estimated energy error (dual):     5.1646e-02
+Estimated energy error (product):  2.5800e-03
+Mesh refinement...done (0.00959 sec)
+
+------------------------------------------------------------
+Iteration 12
+------------------------------------------------------------
+Number of elements: 1570
+Number of vertices: 831
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00295 sec)
+Dual problem...  solved (0.00261 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00217 sec)
+Computing detail space Y info...done      (0.00232 sec)
+Two-level estimator
+Estimation took 0.04745 sec
+Estimated energy error (primal):   4.4395e-02
+Estimated energy error (dual):     4.4110e-02
+Estimated energy error (product):  1.9583e-03
+Mesh refinement...done (0.01291 sec)
+
+------------------------------------------------------------
+Iteration 13
+------------------------------------------------------------
+Number of elements: 2102
+Number of vertices: 1103
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00403 sec)
+Dual problem...  solved (0.00359 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00287 sec)
+Computing detail space Y info...done      (0.00333 sec)
+Two-level estimator
+Estimation took 0.05613 sec
+Estimated energy error (primal):   3.8751e-02
+Estimated energy error (dual):     3.8294e-02
+Estimated energy error (product):  1.4839e-03
+Mesh refinement...done (0.01501 sec)
+
+------------------------------------------------------------
+Iteration 14
+------------------------------------------------------------
+Number of elements: 2631
+Number of vertices: 1372
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00559 sec)
+Dual problem...  solved (0.00489 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00345 sec)
+Computing detail space Y info...done      (0.00343 sec)
+Two-level estimator
+Estimation took 0.06512 sec
+Estimated energy error (primal):   3.3731e-02
+Estimated energy error (dual):     3.4047e-02
+Estimated energy error (product):  1.1485e-03
+Mesh refinement...done (0.01860 sec)
+
+------------------------------------------------------------
+Iteration 15
+------------------------------------------------------------
+Number of elements: 3286
+Number of vertices: 1711
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00671 sec)
+Dual problem...  solved (0.00563 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00465 sec)
+Computing detail space Y info...done      (0.00447 sec)
+Two-level estimator
+Estimation took 0.07750 sec
+Estimated energy error (primal):   2.9337e-02
+Estimated energy error (dual):     3.0388e-02
+Estimated energy error (product):  8.9150e-04
+Mesh refinement...done (0.02342 sec)
+
+------------------------------------------------------------
+Iteration 16
+------------------------------------------------------------
+Number of elements: 4301
+Number of vertices: 2229
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.00860 sec)
+Dual problem...  solved (0.00771 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00568 sec)
+Computing detail space Y info...done      (0.00567 sec)
+Two-level estimator
+Estimation took 0.08768 sec
+Estimated energy error (primal):   2.5873e-02
+Estimated energy error (dual):     2.6705e-02
+Estimated energy error (product):  6.9094e-04
+Mesh refinement...done (0.03072 sec)
+
+------------------------------------------------------------
+Iteration 17
+------------------------------------------------------------
+Number of elements: 5809
+Number of vertices: 2997
+Setting up P1 diffusion matrices...done
+Solving linear systems:
+Primal problem...solved (0.01305 sec)
+Dual problem...  solved (0.01084 sec)
+A posteriori error estimation
+Computing edge lengths/connections...done (0.00843 sec)
+Computing detail space Y info...done      (0.00793 sec)
+Two-level estimator
+Estimation took 0.10849 sec
+Estimated energy error (primal):   2.2775e-02
+Estimated energy error (dual):     2.3151e-02
+Estimated energy error (product):  5.2727e-04
+
+------------------------------------------------------------
+Tolerance reached!
+------------------------------------------------------------
+Total elapsed time:                2.566 sec
+Final estimated energy error:      5.2727e-04
+Total number of refinements:       16
+Final number of elements:          5809
+Final number of total vertices:    2997
+Final number of interior vertices: 2814
+
+Plot primal and dual solutions and corresponding error estimates...done
+-> Output data saved to: datafiles/goafem_adaptive_output.mat

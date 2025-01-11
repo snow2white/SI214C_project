@@ -1,0 +1,36 @@
+Working in batch mode from data file P4_batch.m
+
+specification of reference diffusion problem.
+choose specific example
+     1  Square domain, unit coefficients
+     2  Square domain, anisotropic coefficients
+     3  Circle domain, unit coefficients, analytic solution
+     4  punched ticket domain, unit coefficients
+     5  L-shaped domain, constant load function
+     4
+
+square/circle obstacle 1/2? (default circle)
+     2
+
+target mesh size (default 0.1)
+    0.0200
+
+generating triangulation ...
+done
+refinement level (default 1)
+     0
+
+mesh validation step
+computing edge connections and edge lengths... done 
+P1/P2 approximation 1/2? (default P2)
+     2
+
+setting up P2 diffusion matrices...  done
+system saved in system_adiff.mat ...
+solving linear system ...  done
+Galerkin system solved in  7.284e-02 seconds
+plotting solution... done
+fast computation of P2 local error estimator...
+estimated energy error is 2.8780e-03 
+Elapsed time is 0.236260 seconds.
+plotting solution and estimated errors: this might be a little slow ... done
